@@ -20,7 +20,7 @@ class App extends Component {
   //       ))}
 
   render() {
-    const { users } = this.state;
+    // const { users } = this.state;
 
     return (
       <div className="App">

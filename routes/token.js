@@ -8,7 +8,7 @@ var VideoGrant = AccessToken.VideoGrant;
 // Endpoint to generate access token
 router.get('/', function(req, res, next) {
   // var identity = faker.name.findName();
-  var identity = 'TEST IDENTITY';
+  var identity = 'TEST ' + Date.now();
 
   // Create an access token which we will sign and return to the client,
   // containing the grant we just created
